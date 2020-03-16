@@ -28,7 +28,7 @@ if [ $files_cout -ne 1 ]; then
   exit 1
 else
   # Unzip Rom
-  #unzip -n *.zip -d unziped_rom
+  unzip -n *.zip -d unziped_rom
   rm -rf $UNZIPED_PATH/vendor.patch.dat $UNZIPED_PATH/system.patch.dat $UNZIPED_PATH/compatibility.zip
   mv $UNZIPED_PATH/boot.img $OUTPUT_PATH/boot.img
   mv $UNZIPED_PATH/firmware-update $OUTPUT_PATH/firmware-update

@@ -31,5 +31,5 @@ echo "$TIME_TEXT_HEADER $DATE $TIME"
 echo "$LANG_NOTICE_HEADER $LANGUAGE"
 echo
 
+# Unzip
 bash bin/unzip_rom.sh
-#cd unziped_rom
