@@ -9,7 +9,7 @@ LANGUAGE=$(bash bin/get_current_language.sh $SYSTEM_LANGUAGE 0)
 if [ $LANGUAGE == "DEF_LANG" ]; then
 echo "We did not detect a language pack corresponding to your system language."
 echo "So we will use default language pack for you"
-LANGUAGE="en-US"
+LANGUAGE="zh_CN"
 elif [ $LANGUAGE == "NO_LANG" ]; then
 echo "Error: Did not find any language pack...aborting"
 exit 1
